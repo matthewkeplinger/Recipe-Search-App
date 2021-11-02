@@ -11,7 +11,7 @@ function App() {
   const [alert, setAlert] = useState("");
 
   const APP_ID = "fc85d6aa";
-  const APP_KEY = "ee7b7b4d0667c9990c76d6a963b02c7c1";
+  const APP_KEY = "e7b7b4d0667c9990c76d6a963b02c7c1";
 
   const url = `https://api.edamam.com/search?q=${query}&app_id=${APP_ID}&app_key=${APP_KEY}`;
 
